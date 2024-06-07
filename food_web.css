@@ -1,0 +1,1026 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #222222;
+}
+main{
+    max-height: 5000px;
+    background-color: black;
+}
+nav{
+    display: flex;
+    gap: 200px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+ul > li > a{
+    color: grey;
+    text-decoration: none;    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ul > li > a:hover{
+    color: white;
+    border-bottom: 1px solid red;   
+    font-weight: bold;
+    
+}
+.icons{
+    margin-left: 300px;
+    display: flex;
+    gap: 10px;
+}
+#icon {
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    border: 3px solid grey;
+
+}
+#icon > i{
+    padding-top: 10px;
+    color: grey;
+    padding-left: 15px;
+    padding-right: 15px;
+    cursor: pointer;
+    position:relative;
+    right: 10px;
+    bottom: 5px;
+}
+.head-img > img{
+    position: relative;
+    left: 645px;
+    bottom: 75px;
+    z-index: 1;
+}
+.chef{
+    height: 700px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-image: url(images/chef_photo.png);
+    background-size: 100%;
+    position: relative;
+    bottom: 189px;
+}
+.chef-text{
+    padding-top: 15%;
+    margin-left: 50%;
+}
+.chef-text > #awsome{
+    width: 400px;
+    text-align: center;
+}
+.chef-text > #test{
+    padding-top: 10px;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    width: 400px;
+    text-align: center;
+}
+#test{
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+#come{
+    margin-top: 10%;
+    margin-left: 35%;
+    font-family: cursive;
+    font-size: larger;
+}
+#exp{
+    color: #DE4C37;
+    margin-left: 30%;
+    font-family: "Cedarville Cursive", cursive;
+    font-weight: 100;
+    font-style: italic;
+    font-style: normal;
+    font-size: 65px;
+    position: relative;
+    bottom: 25px;
+}
+#best{
+    font-family: cursive;
+    position: relative;
+    bottom: 45px;
+    margin-left: 40%;
+    font-size: larger;
+}
+.center{
+    background-color: #292929;
+    position: relative;
+    bottom: 189px;
+    height: 1000px;
+}
+.phone{
+    display: flex;
+    width: 1000px;
+    margin-left: 17%;
+    position: relative;
+    bottom: 100px;
+}
+.text{
+    background-color: #505050;
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    width: 80px;
+    padding: 50px;
+    color: grey;
+}
+.text > span{
+    color: white;
+    font-weight: bolder;
+}
+.number{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    background-color: #DC4F45;
+    border-right: 1px solid rgb(106, 106, 106);
+    
+}
+.number-text{
+    padding-top: 20px;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.number-text > i {
+    font-size: xx-large;
+    position: relative;
+    right: 10px;
+    bottom: 5px;
+    border: 3px solid white;
+    border-radius: 50%;
+    padding: 10px;
+}
+.or{
+    height: 20px;
+    width: 20px;
+    border: 1px solid rgb(142, 142, 142);
+    border-radius: 50%;
+    padding: 4px;
+    position: relative;
+    left: 250px;
+    bottom: 40px;
+    background-color: #DC4F45;
+}
+.or > p{
+    position: relative;
+    left: 3px;
+}
+.order{
+    background-color: #DC4F45;
+    width: 300px;
+}
+.order > button{
+    background-color: white;
+    color: #DC4F45;
+    padding: 25px;
+    margin: 70px;
+    width: 200px;
+    border: none;
+    font-weight: bold;
+    font-size: larger;
+    cursor: pointer;
+}
+.menu-text{
+    text-align: center;
+    padding: 15px;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.menu-text > img{
+    height: 100px;
+    width: 110px;
+}
+.food > .food-images > img{
+    height: 150px;
+    width: 160px;
+    border-radius: 50%;
+    border: 10px solid white;
+}
+.food-images{
+    padding-top: 50px;
+    margin-left: 10%;
+    padding-left: 25px;
+}
+#img1{
+    position: relative;
+    left: 195px;
+}
+#img2{
+    position: relative;
+    left: 85px;
+    z-index: 1;
+}
+#img3{
+    position: relative;
+    left: 1px;
+    z-index: 1;
+}
+#img4{
+    height: 200px;
+    width: 200px;
+    position: relative;
+    top: 25px;
+    right: 100px;
+    z-index: 1;
+}
+#img5{
+    position: relative;
+    right: 175px;
+}
+#img6{
+    position: relative;
+    right: 260px;
+
+}
+#img7{
+    position: relative;
+    bottom: 167px;
+    left: 775px;
+}
+.green-dot{
+    height: 20px;
+    width: 20px;
+    background-color: #83D602;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    position: relative;
+    left: 49%;
+    bottom: 163px;
+    z-index: 1;
+}
+.menu-text2{
+    text-align: center;
+    width: 500px;
+    margin-left: 32%;
+    position: relative;
+    bottom: 120px;
+}
+.menu-text2 > p{
+    padding: 10px;
+}
+.menu-text2 > #dish{
+    color: red;
+    font-family: cursive;
+}
+#dummy{
+    color: grey;
+}
+.menu-text2 > button{
+    width: 150px;
+    height: 50px;
+    background-color: #DC4F45;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+}
+.form{
+    height: 1300px;
+    background-repeat: no-repeat;
+    background-image: url("images/blur_form.png");
+    margin-top: -190px;
+    background-size: 100%;
+    padding: 100px;
+}
+.form-tag > h2{
+    font-size: large;
+    padding: 20px;
+    color: grey;
+}
+#text{
+    position: relative;
+    bottom: 20px;
+}
+.form-text{
+    text-align: center;
+    color: rgb(79, 77, 77);
+    padding: 25px;
+}
+.form-text > h1,h3{
+    padding: 10px;
+}
+.form-main{
+    display: flex;
+    gap: 0px;
+}
+.form-img{
+    background-image: url("images/form_dining.png");
+    height: 592px;
+    width: 343px;
+    background-repeat: no-repeat;
+}
+.form-tag{
+    height: 592px;
+    width: 940px;
+    background-color: white ;
+    
+}
+.person{
+    display: flex;
+    padding-bottom: 20px;
+
+    border-bottom: 1px solid rgb(195, 195, 195);
+}
+.form-2-img{
+    display: flex;
+    width: 150px;
+    height: 50px;
+    background-color: grey;
+    padding: 20px;
+    margin: 20px;
+}
+.form-2-img > img{
+    height: 30px;
+    width: 30px;
+    padding: 10px;
+}
+.form-2-img > #text > p{
+    text-align: center;
+    padding-left: 25px;
+    color: white;
+    position: relative;
+    font-size: x-large;
+}
+#Banqute{   
+    font-size: small;
+    color: white;
+    font-size: 22px;
+    padding-top: 10px;
+}
+.form-elements{
+    display: flex;
+    gap: 20px;
+    border-bottom: 1px solid rgb(217, 215, 215);
+    padding-bottom: 30px;
+}
+.choice >h4{
+    color: grey;
+    font-weight: lighter;
+    padding: 20px;
+}
+.choice > input[type="text"]{
+    margin: 20px;
+    width: 150px;
+    height: 30px;
+    border: 1px solid rgb(214, 214, 214);
+
+}
+.occasion >h4{
+    color: grey;
+    font-weight: lighter;
+    padding: 20px;
+    width: 100%;
+}
+.occasion > select {
+    width: 200px;
+    margin: 20px;
+    height: 30px;
+    border: 1px solid rgb(214, 214, 214);
+    color: grey;
+    padding: 5px;
+}
+.food >h4{
+    color: grey;
+    font-weight: lighter;
+    padding: 20px;
+}
+.food > select{
+    width: 270px;
+    margin: 20px;
+    height: 30px;
+    border: 1px solid rgb(214, 214, 214);
+    color: grey;
+    padding: 5px;   
+}
+.form-info{
+    display: flex;
+    gap: 20px;
+}
+.choice > input[type="email"]{
+    width: 270px;
+    margin: 20px;
+    height: 30px;
+    border: 1px solid rgb(214, 214, 214);
+    color: grey;
+}
+.button{
+    display: flex;
+    gap: 20px;
+    justify-content: end;
+    padding: 20px;
+}
+.button > p{
+    margin: 10px;
+    color: grey;
+}
+.button > button {
+    width: 150px;
+    background-color: #DC4F45;
+    color: white;
+    font: bold;
+    height: 40px;
+    border: none;
+    border-radius: 5px;    
+    cursor: pointer;
+}
+.mobile{
+    background-color: #DC4F45;
+    height: 300px;
+    width: 100%;
+    position: relative;
+    bottom: 517px;
+    display: flex;
+    gap: 100px;
+}
+.mobile-img > img{
+    position: relative;
+    height: 270px;
+    /* top: 134px;
+    left: 250px; */
+    margin-left: 250px;
+    padding-top: 30px;
+}
+.mobile-text{
+    color: white;
+    width: 400px;
+    padding: 50px;
+}
+.mobile-text > h1,p{
+    padding: 10px;
+}
+.mobile-text > button{
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+    color: #DC4F45;
+    height: 40px;
+    width: 150px;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.vegetables{    
+    background-image: url("images/vegetable.jpg");
+    background-image: linear-gradient(grey,rgb(146, 141, 141),silver);
+    height: 2200px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+    bottom: 518px;
+} 
+.vegetables-text{
+    text-align: center;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.vegetables-text > img,h1,h4{
+    padding: 10px;
+}
+.breakfast{
+    display: flex;
+    margin-left: 10%;
+    margin-top: 7%;
+    background-color: white;
+    width: 1200px;
+}
+.breakfast-img{
+    background-image: url("images/breakfase.png");
+    height: 500px;
+    width: 400px;
+    background-repeat: no-repeat;
+}
+.breakfast-text{
+    height: 100px;
+    width: 450px;
+    padding: 15px;
+    margin-left: 30px;
+}
+.breakfast-text > h4{
+    font-weight: lighter;
+    color: grey;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.break1 > img{
+    width: 200px;
+    height: 120px;
+}
+.breakfast-item{
+    display: flex;
+    gap: 50px;
+}
+.break1{
+    height: 330px;
+    width: 200px;
+    border: 1px solid rgb(202, 202, 202);
+    background-color: rgb(245, 245, 245);
+    border-radius: 5px;
+}
+.break1 > h2 {
+    color:  red;
+    padding: 10px;
+}
+.break1 > h5{
+    padding-left: 10px;
+    color: grey;
+}
+.break1 > p{
+    color: grey;
+}
+.break1 > button{
+    width: 130px;
+    height: 30px;
+    background-color: #DC4F45;
+    color: white;
+    font-weight: bold;
+    border: none;
+    margin: 10px;
+    border-radius: 5px;
+}
+.lunch{
+    display: flex;
+    margin-left: 10%;
+    margin-top: 50px;
+}
+.lunch-img{
+    background-image: url("images/zinga.png");
+    height: 500px;
+    width: 430px;
+    position: relative;
+    left: 45px;
+}
+.lunch-text{
+    text-align: end;
+}
+.lunch1{
+    height: 330px;
+    width: 200px;
+    border: 1px solid rgb(202, 202, 202);
+    background-color: rgb(245, 245, 245);
+    border-radius: 5px;
+    text-align: start;
+}
+.lunch-item{
+    display: flex;
+    gap: 50px;
+    margin-left: 20px;
+}
+.lunch1 > img{
+    width: 200px;
+    height: 120px;
+}
+.lunch1 > h2 {
+    color:  red;
+    padding: 10px;
+}
+.lunch1 > h5{
+    padding-left: 10px;
+    color: grey;
+}
+.lunch1 > p{
+    color: grey;
+}
+.lunch1 > button{
+    width: 130px;
+    height: 30px;
+    background-color: #DC4F45;
+    color: white;
+    font-weight: bold;
+    border: none;
+    margin: 10px;
+    border-radius: 5px;   
+}
+.lunch{
+    width: 1200px;
+    background-color: white;
+}
+.lunch-text > h4{
+    font-weight: lighter;
+    color: grey;
+}
+.dinner-img{
+    background-image: url("images/salad.png");
+    height: 500px;
+    width: 400px;
+    background-repeat: no-repeat;
+}
+.everyday{
+    margin-top: -520px;
+    background-color: #F3F3F3;
+}
+.everyday-text{
+    text-align: center;
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cards{
+    display: flex;
+    gap: 100px;
+    margin: 150px;
+}
+.card1{
+    display: flex;
+}
+.card-text{
+    height: 450px;
+    width: 300px;
+    border:  1px solid silver;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.card1 > img{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.card-text > .date {
+    color: white;
+    background-color: #DC4F45;
+    width: 100px;
+    height: 30px;
+    padding-top: 15px;
+}
+.card-text > h1{
+    color: grey;
+    font-weight: lighter;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 20px;
+}
+.card-text > p{
+    color: grey;
+    padding: 20px;
+}
+.card-text > button{
+    width: 150px;
+    height: 30px;
+    color: grey;
+    background-color: white;
+    border: 1px solid silver;
+    border-radius: 5px;
+    margin-left: 40%;
+    margin-bottom: 50px;
+}
+.load > button{
+    width: 150px;
+    height: 30px;
+    color: grey;
+    background-color: white;
+    border: 1px solid silver;
+    border-radius: 5px;
+    margin-left: 46%;
+    margin-bottom: 50px;
+}
+.red{
+    background-color: #C8483F;
+}
+.img > img{
+    height: 250px;
+    width: 300px;
+    margin: 20px;
+}
+.img{
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+    align-items: center;
+}
+.img >  h1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.img > button {
+    width: 150px;
+    height: 40px;
+    background-color: white;
+    color: #C8483F;
+    border: none;
+    font-weight: 600;
+}
+.chef1{
+    background-image: url("images/back-chef.jpg");
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 100%;
+    background-size: 100%;
+}
+.chef-main{
+    margin-left:20%;
+    padding-top: 100px;
+    display: flex;
+    gap: 50px;
+}
+.chef-main > img {
+    height: 400px;
+    width: 400px;
+}
+.chef-main-text  {
+    color: white;
+    width: 400px;
+}
+.chef-main-text > h1{
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.chef-main-text > p{
+    color: silver;
+    font-size: small;
+}
+.chef-main-text >p > img{
+    height: 20px;
+    width: 20px;
+    position: relative;
+    right: 5px;
+    top: 5px;
+}   
+.review-main{
+    padding-bottom: 100px;
+    background-color: #F3F3F3;
+}
+.user-review-head{
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.review-logo{
+    background-image: url(images/men_review.png);
+    height: 72px;
+    width: 79px;
+    background-repeat: no-repeat;
+}
+.review{
+    display: flex;
+    margin-left: 120px;
+    padding-top: 50px;
+}
+.review1{
+    display: flex;
+}
+.review-text{
+    width: 300px;
+    padding: 15px;
+    height: 250px;
+    line-height: 13px;
+}
+.review-text > #name{
+    color:#505050;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.review-text > #prof{
+    color: #505050;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.contact-main{
+    padding-bottom: 150px;
+}
+.review-text > #desc{
+    color: grey;
+}
+.rating{
+    display: flex;
+}
+.rating > .rate-name{
+    color: #DC4F45;
+}
+.checked {
+    color:#DC4F45;
+}
+.uncheck{
+    color: grey;
+}
+.rate-star > p > span{
+    line-height: 1px;
+}
+.mail{
+    background-color: #C8483F;
+    display: flex;
+    gap: 100px;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+}
+.mail-text{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 5px;
+}
+.mail-input> input[type="email"]{
+    width: 350px;
+    height: 40px;
+    border: none;
+}
+.mail-input> input[type="email"]::placeholder{
+    padding: 15px;
+    color: grey;
+}
+.mail-input > button{
+    background-color: #505050;
+    height: 40px;
+    width: 60px;
+    border: none;
+    color: white;
+    font-weight: bolder;
+    font-size: 15px;
+}
+.contact-text{
+    text-align: center;
+    color: #505050;
+    line-height: 5px;
+}
+.input1{
+    margin-left: 20%;
+}
+.input1 > input[type="text"]{
+    width: 400px;
+    height: 50px;
+    margin: 20px;
+}
+.input1 > input[type="text"]::placeholder{
+    padding: 20px;
+    color: grey;
+}
+.input1 > input[type="button"]{
+    width: 150px;
+    height: 50px;
+    margin: 20px;
+    background-color: #C8483F;
+    font-weight: 500;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.banner{
+    display: flex;
+    border: 1px solid silver;
+    width: 1100px;
+    margin-left: 15%;
+    margin-top: 65px;
+}
+.banner-img{
+    background-image: url("images/salad.png");
+    height: 300px;
+    width: 400px;
+}
+.banner-text{
+    width: 600px;
+}
+.banner-text > h1{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+.banner-text > p{
+    color: grey;
+    padding: 20px;
+}
+.buttons{
+    margin-left: 15% ;
+    border: 1px solid silver;
+    width: 1100px;
+}
+.buttons > h1{
+    color: rgb(79, 78, 78);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+}
+.buttons > p{
+    width: 600px;
+    padding: 20px;
+    color: grey;
+}
+.day{
+    width: 100px;
+    height: 30px;
+    background-color: #C8483F;
+    color: white;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+}
+.time{
+    width: 100px;
+    height: 30px;
+    background-color: white;
+    color: grey;
+    font-weight: 500;
+    border: 1px solid silver;
+    border-radius: 5px;
+}
+.buttons > button{
+    margin: 15px;
+}
+.second > button{
+    margin: 15px;
+}
+.locations{
+    background-image: url("images/location.jpg");
+    height: 500px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.location-input{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    position: relative;
+    bottom: 70px;  
+}
+.location-text {
+    display: flex;
+    
+}
+.location-text > p{
+    background-color: #505050;
+    height: 80px;
+    width: 200px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.location-inout{
+    background-color: #DC4F45;
+    height: 130px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.location-inout > input[type="text"]{
+    width: 200px;
+    height: 40px;
+    margin: 25px;
+}
+.location-inout > button{
+    width: 150px;
+    height: 40px;
+    margin: 50px;
+    background-color: white;
+    color: #C8483F;
+    border: none;
+}
+.location-inout > input[type="text"]::placeholder{
+    padding: 20px;
+}
+.location-dummy-text{
+    background-color: #C8483F;
+    height: 150px;
+    width: 400px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+    text-align: center;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 35%;
+    margin-top: 3%;
+}
+.location-dummy-text > p{
+    width: 350px;
+    padding: 25px;   
+}
+i.fa.fa-map-marker{
+    position: relative;
+    left: 48%;
+    bottom: 25px;
+    font-size:50px;
+    color: rgb(107, 104, 104);
+}
+.footer-img > img{
+    position: relative;
+    left: 42%;
+    margin-top: 3%;
+}
+#icons{
+    margin-right: 250px;
+}
+.footer{
+    display: flex;
+    z-index: 1;
+    height: 250px;
+    width: 100%;
+    background-color: #222222   ;
+    justify-content: center;
+    align-items: center;
+    color: grey;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
